@@ -1,0 +1,25 @@
+table {
+    max-width: 90%;
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    /* Semi-transparent background */
+    border: 1px solid black;
+}
+
+th {
+    background: rgba(255, 255, 255, 0.2);
+    /* Slightly lighter for header */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
